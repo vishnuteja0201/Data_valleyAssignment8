@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signup Form</title>
+</head>
+<body>
+<h1>Sign Up</h1>
+<form action="#" method="POST" enctype="multipart/form-data">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Full name" required><br><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="gmail id" required><br><br>
+  
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password" placeholder="8 characters" required><br><br>
+  
+  <label for="confirm_password">Confirm Password:</label><br>
+  <input type="password" id="confirm_password" name="confirm_password" placeholder="8 characters" required><br><br>
+  
+  <label for="dob">Date of Birth:</label><br>
+  <input type="date" id="dob" name="dob" required><br><br>
+  
+  <label>Gender:</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+  
+  <label for="photo">Insert Your Photo:</label><br>
+  <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+  
+  <label for="resume">Attach Your Resume:</label><br>
+  <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx"><br><br>
+  
+  <label for="security_question">Security Question:</label><br>
+  <select id="security_question" name="security_question" required>
+    <option value="" disabled selected>Select</option>
+    <option value="school_name">What is your school's name?</option>
+    <option value="favourite_color">What is your favourite color?</option>
+  </select><br>
+  <textarea ></textarea>
+   <br>
+
+  <input type="checkbox" id="terms_conditions" name="terms_conditions" required>
+  <label for="terms_conditions">I agree to terms and conditions</label><br><br>
+  
+  <input type="submit" value="Register">
+</form>
+
+</body>
+</html>
+
+ 
